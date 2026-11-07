@@ -1,0 +1,4 @@
+name: apm-update
+files:
+  - source: apm-update.yaml
+    target: .github/workflows/apm-update.yaml

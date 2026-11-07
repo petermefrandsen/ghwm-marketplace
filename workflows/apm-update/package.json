@@ -1,0 +1,17 @@
+{
+    "name": "@petermefrandsen/apm-update",
+    "version": "1.0.0",
+    "description": "Update APM skills on a schedule and open a pull request",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/petermefrandsen/ghwm-marketplace.git",
+        "directory": "workflows/apm-update"
+    },
+    "files": [
+        "apm-update.yaml",
+        "workflow.yml"
+    ],
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    }
+}
